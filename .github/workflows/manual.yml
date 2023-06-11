@@ -1,13 +1,12 @@
 name: Lotto purchase (manual)
 on:
   workflow_dispatch:
-
 jobs:
   run-actions:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: rich-automation/lotto-action@0.0.6
+      - uses: rich-automation/lotto-action@0.0.7
         with:
           id: ${{ secrets.ID }}
           pwd: ${{ secrets.PASSWORD }}
