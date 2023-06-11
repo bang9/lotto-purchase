@@ -4,13 +4,12 @@ on:
     # 매 주 일요일 오전 7시, Github Actions 에서는 UTC 기준으로 실행됨
     # https://elmah.io/tools/cron-parser/
     - cron: '0 22 * * 6'
-
 jobs:
   run-actions:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: rich-automation/lotto-action@0.0.6
+      - uses: rich-automation/lotto-action@latest
         with:
           id: ${{ secrets.ID }}
           pwd: ${{ secrets.PASSWORD }}
