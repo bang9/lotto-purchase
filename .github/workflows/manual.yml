@@ -1,4 +1,4 @@
-name: Lotto purchase (cron)
+name: Lotto purchase (manual)
 on:
   workflow_dispatch:
 
