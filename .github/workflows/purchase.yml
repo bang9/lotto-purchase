@@ -8,6 +8,8 @@ on:
 jobs:
   run-purchase:
     runs-on: ubuntu-latest
+    # 구매 플로우가 셀렉터 대기 등으로 hang 시 6시간 기본 리밋 대신 빠르게 실패시킨다
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
