@@ -10,7 +10,7 @@
   "dependencies": {
     "@actions/core": "^1.11.1",
     "@actions/github": "^6.0.0",
-    "@rich-automation/lotto": "^2.0.6",
+    "@rich-automation/lotto": "^2.1.1",
     "playwright": "^1.51.1"
   },
   "devDependencies": {
