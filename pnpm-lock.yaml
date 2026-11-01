@@ -15,8 +15,8 @@ importers:
         specifier: ^6.0.0
         version: 6.0.0
       '@rich-automation/lotto':
-        specifier: ^2.1.1
-        version: 2.1.1(playwright@1.51.1)
+        specifier: ^2.1.2
+        version: 2.1.2(playwright@1.51.1)
       playwright:
         specifier: ^1.51.1
         version: 1.51.1
@@ -94,8 +94,8 @@ packages:
   '@octokit/types@13.10.0':
     resolution: {integrity: sha512-ifLaO34EbbPj0Xgro4G5lP5asESjwHracYJvVaPIyXMuiuXLlhic3S47cBdTb+jfODkTE5YtGCLt3Ay3+J97sA==}
 
-  '@rich-automation/lotto@2.1.1':
-    resolution: {integrity: sha512-SR8ziChls3ZOD3Y3BfZSYzM0NJqCtVXM1QOrREfd3gaD6Luwh1LeBRAcLw3ZCRCUzbi0kMJwHAFB52na6xe1Mw==}
+  '@rich-automation/lotto@2.1.2':
+    resolution: {integrity: sha512-ePKIFwF6Y8G/sSjaYAsRDfr1LxI4i+63+EZ/PSLEHAdTlP/vwziQ3rA2OZGJa7pA7a4b8ATymX57aBOFdSJYVA==}
     peerDependencies:
       playwright: ^1.35.0
       puppeteer: ^20.5.0
@@ -359,7 +359,7 @@ snapshots:
     dependencies:
       '@octokit/openapi-types': 24.2.0
 
-  '@rich-automation/lotto@2.1.1(playwright@1.51.1)':
+  '@rich-automation/lotto@2.1.2(playwright@1.51.1)':
     dependencies:
       axios: 1.18.1
       dayjs: 1.11.19
